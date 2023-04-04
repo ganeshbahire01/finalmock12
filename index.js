@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const { connection } = require('./config/db');
+const  connection  = require('./config/db');
 const { userRoutes } = require('./Routes/User.route');
 const {Auth}=require("./middelware/AuthMiddelware.js");
 const { calculateRoute } = require('./Routes/calculator.route');
